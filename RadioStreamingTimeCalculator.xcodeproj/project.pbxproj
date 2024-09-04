@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DBCA60C2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA60B2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift */; };
+		0DBCA60E2C8826C600044EBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA60D2C8826C600044EBB /* ContentView.swift */; };
+		0DBCA6102C8826C800044EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCA60F2C8826C800044EBB /* Assets.xcassets */; };
+		0DBCA6142C8826C800044EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCA6132C8826C800044EBB /* Preview Assets.xcassets */; };
+		0DBCA61E2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA61D2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift */; };
+		0DBCA6282C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6272C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift */; };
+		0DBCA62A2C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DBCA61A2C8826C900044EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DBCA6002C8826C600044EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBCA6072C8826C600044EBB;
+			remoteInfo = RadioStreamingTimeCalculator;
+		};
+		0DBCA6242C8826C900044EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DBCA6002C8826C600044EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBCA6072C8826C600044EBB;
+			remoteInfo = RadioStreamingTimeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DBCA6082C8826C600044EBB /* RadioStreamingTimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioStreamingTimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBCA60B2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorApp.swift; sourceTree = "<group>"; };
+		0DBCA60D2C8826C600044EBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DBCA60F2C8826C800044EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DBCA6112C8826C800044EBB /* RadioStreamingTimeCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioStreamingTimeCalculator.entitlements; sourceTree = "<group>"; };
+		0DBCA6132C8826C800044EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DBCA6192C8826C900044EBB /* RadioStreamingTimeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStreamingTimeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBCA61D2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorTests.swift; sourceTree = "<group>"; };
+		0DBCA6232C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStreamingTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBCA6272C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorUITests.swift; sourceTree = "<group>"; };
+		0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DBCA6052C8826C600044EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA6162C8826C900044EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA6202C8826C900044EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DBCA5FF2C8826C600044EBB = {
+			isa = PBXGroup;
+			children = (
+				0DBCA60A2C8826C600044EBB /* RadioStreamingTimeCalculator */,
+				0DBCA61C2C8826C900044EBB /* RadioStreamingTimeCalculatorTests */,
+				0DBCA6262C8826C900044EBB /* RadioStreamingTimeCalculatorUITests */,
+				0DBCA6092C8826C600044EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DBCA6092C8826C600044EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA6082C8826C600044EBB /* RadioStreamingTimeCalculator.app */,
+				0DBCA6192C8826C900044EBB /* RadioStreamingTimeCalculatorTests.xctest */,
+				0DBCA6232C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBCA60A2C8826C600044EBB /* RadioStreamingTimeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA60B2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift */,
+				0DBCA60D2C8826C600044EBB /* ContentView.swift */,
+				0DBCA60F2C8826C800044EBB /* Assets.xcassets */,
+				0DBCA6112C8826C800044EBB /* RadioStreamingTimeCalculator.entitlements */,
+				0DBCA6122C8826C800044EBB /* Preview Content */,
+			);
+			path = RadioStreamingTimeCalculator;
+			sourceTree = "<group>";
+		};
+		0DBCA6122C8826C800044EBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA6132C8826C800044EBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DBCA61C2C8826C900044EBB /* RadioStreamingTimeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA61D2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift */,
+			);
+			path = RadioStreamingTimeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		0DBCA6262C8826C900044EBB /* RadioStreamingTimeCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA6272C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift */,
+				0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */,
+			);
+			path = RadioStreamingTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DBCA6072C8826C600044EBB /* RadioStreamingTimeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBCA62D2C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculator" */;
+			buildPhases = (
+				0DBCA6042C8826C600044EBB /* Sources */,
+				0DBCA6052C8826C600044EBB /* Frameworks */,
+				0DBCA6062C8826C600044EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioStreamingTimeCalculator;
+			productName = RadioStreamingTimeCalculator;
+			productReference = 0DBCA6082C8826C600044EBB /* RadioStreamingTimeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DBCA6182C8826C900044EBB /* RadioStreamingTimeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBCA6302C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculatorTests" */;
+			buildPhases = (
+				0DBCA6152C8826C900044EBB /* Sources */,
+				0DBCA6162C8826C900044EBB /* Frameworks */,
+				0DBCA6172C8826C900044EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DBCA61B2C8826C900044EBB /* PBXTargetDependency */,
+			);
+			name = RadioStreamingTimeCalculatorTests;
+			productName = RadioStreamingTimeCalculatorTests;
+			productReference = 0DBCA6192C8826C900044EBB /* RadioStreamingTimeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DBCA6222C8826C900044EBB /* RadioStreamingTimeCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBCA6332C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculatorUITests" */;
+			buildPhases = (
+				0DBCA61F2C8826C900044EBB /* Sources */,
+				0DBCA6202C8826C900044EBB /* Frameworks */,
+				0DBCA6212C8826C900044EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DBCA6252C8826C900044EBB /* PBXTargetDependency */,
+			);
+			name = RadioStreamingTimeCalculatorUITests;
+			productName = RadioStreamingTimeCalculatorUITests;
+			productReference = 0DBCA6232C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DBCA6002C8826C600044EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0DBCA6072C8826C600044EBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0DBCA6182C8826C900044EBB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0DBCA6072C8826C600044EBB;
+					};
+					0DBCA6222C8826C900044EBB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0DBCA6072C8826C600044EBB;
+					};
+				};
+			};
+			buildConfigurationList = 0DBCA6032C8826C600044EBB /* Build configuration list for PBXProject "RadioStreamingTimeCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DBCA5FF2C8826C600044EBB;
+			productRefGroup = 0DBCA6092C8826C600044EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DBCA6072C8826C600044EBB /* RadioStreamingTimeCalculator */,
+				0DBCA6182C8826C900044EBB /* RadioStreamingTimeCalculatorTests */,
+				0DBCA6222C8826C900044EBB /* RadioStreamingTimeCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DBCA6062C8826C600044EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBCA6142C8826C800044EBB /* Preview Assets.xcassets in Resources */,
+				0DBCA6102C8826C800044EBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA6172C8826C900044EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA6212C8826C900044EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DBCA6042C8826C600044EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBCA60E2C8826C600044EBB /* ContentView.swift in Sources */,
+				0DBCA60C2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA6152C8826C900044EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBCA61E2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBCA61F2C8826C900044EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBCA62A2C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift in Sources */,
+				0DBCA6282C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DBCA61B2C8826C900044EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DBCA6072C8826C600044EBB /* RadioStreamingTimeCalculator */;
+			targetProxy = 0DBCA61A2C8826C900044EBB /* PBXContainerItemProxy */;
+		};
+		0DBCA6252C8826C900044EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DBCA6072C8826C600044EBB /* RadioStreamingTimeCalculator */;
+			targetProxy = 0DBCA6242C8826C900044EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DBCA62B2C8826C900044EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DBCA62C2C8826C900044EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0DBCA62E2C8826C900044EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioStreamingTimeCalculator/RadioStreamingTimeCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioStreamingTimeCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DBCA62F2C8826C900044EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RadioStreamingTimeCalculator/RadioStreamingTimeCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioStreamingTimeCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DBCA6312C8826C900044EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioStreamingTimeCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioStreamingTimeCalculator";
+			};
+			name = Debug;
+		};
+		0DBCA6322C8826C900044EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioStreamingTimeCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioStreamingTimeCalculator";
+			};
+			name = Release;
+		};
+		0DBCA6342C8826C900044EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioStreamingTimeCalculator;
+			};
+			name = Debug;
+		};
+		0DBCA6352C8826C900044EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioStreamingTimeCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DBCA6032C8826C600044EBB /* Build configuration list for PBXProject "RadioStreamingTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBCA62B2C8826C900044EBB /* Debug */,
+				0DBCA62C2C8826C900044EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBCA62D2C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBCA62E2C8826C900044EBB /* Debug */,
+				0DBCA62F2C8826C900044EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBCA6302C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBCA6312C8826C900044EBB /* Debug */,
+				0DBCA6322C8826C900044EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBCA6332C8826C900044EBB /* Build configuration list for PBXNativeTarget "RadioStreamingTimeCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBCA6342C8826C900044EBB /* Debug */,
+				0DBCA6352C8826C900044EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DBCA6002C8826C600044EBB /* Project object */;
+}
