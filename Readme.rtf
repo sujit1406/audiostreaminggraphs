@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 MVVM architecture with SwiftUI was used to create the radio streaming time calculator app.\
+\
+Views:\
+It contains the following views\
+ContentView\
+ListView\
+GraphView\
+\
+ContentView has the title with the total effective hrs calculated in hh:mm:ss format\
+The list view show the starting time and ending time and duration for each session. The list was created with Swiftui lists\
+The graph view shows each session and their duration on a 24 hr graph. The graph was created using the SwiftUI framework\
+\
+\
+Models:\
+It contains a StreamingSession model and a Session model for the graphs\
+\
+ViewModels:\
+StreamingSessionViewModel contains convenience methods to format the time and calculate duration for each session etc\
+StreamingSessionListViewModel contains a list of all the streamingviewmodels and functions to calculate the effective streaming time\
+\
+Service:\
+The Webservice class mocks a web service by parsing a locally saved json containing all the streaming session data\
+\
+Assumptions made:\
+All streaming happens during a day period  from 00:00 to 23:59 . Charts are plotted based on this.\
+\
+Tests:\
+I have tested the app by various time sessions of smaller counts and it gives correct answers\
+\
+\
+}

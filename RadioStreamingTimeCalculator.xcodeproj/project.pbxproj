@@ -14,6 +14,14 @@
 		0DBCA61E2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA61D2C8826C900044EBB /* RadioStreamingTimeCalculatorTests.swift */; };
 		0DBCA6282C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6272C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift */; };
 		0DBCA62A2C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */; };
+		0DBCA63B2C88275300044EBB /* StreamingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA63A2C88275300044EBB /* StreamingSession.swift */; };
+		0DBCA63D2C8827BC00044EBB /* StreamingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA63C2C8827BC00044EBB /* StreamingListViewModel.swift */; };
+		0DBCA6412C8828AA00044EBB /* StreamingSessions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCA6402C8828AA00044EBB /* StreamingSessions.json */; };
+		0DBCA6432C882D7000044EBB /* StreamingSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6422C882D7000044EBB /* StreamingSessionViewModel.swift */; };
+		0DBCA6462C882FBD00044EBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6452C882FBD00044EBB /* Extensions.swift */; };
+		0DBCA6482C88308500044EBB /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6472C88308500044EBB /* Webservice.swift */; };
+		0DBCA64A2C8836D500044EBB /* StreamingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA6492C8836D500044EBB /* StreamingListView.swift */; };
+		0DBCA64C2C885E3500044EBB /* TimeLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCA64B2C885E3500044EBB /* TimeLineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		0DBCA6232C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStreamingTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBCA6272C8826C900044EBB /* RadioStreamingTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorUITests.swift; sourceTree = "<group>"; };
 		0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStreamingTimeCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DBCA63A2C88275300044EBB /* StreamingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingSession.swift; sourceTree = "<group>"; };
+		0DBCA63C2C8827BC00044EBB /* StreamingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingListViewModel.swift; sourceTree = "<group>"; };
+		0DBCA6402C8828AA00044EBB /* StreamingSessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = StreamingSessions.json; path = RadioStreamingTimeCalculator/StreamingSessions.json; sourceTree = SOURCE_ROOT; };
+		0DBCA6422C882D7000044EBB /* StreamingSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingSessionViewModel.swift; sourceTree = "<group>"; };
+		0DBCA6452C882FBD00044EBB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0DBCA6472C88308500044EBB /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		0DBCA6492C8836D500044EBB /* StreamingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingListView.swift; sourceTree = "<group>"; };
+		0DBCA64B2C885E3500044EBB /* TimeLineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				0DBCA60B2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift */,
-				0DBCA60D2C8826C600044EBB /* ContentView.swift */,
+				0DBCA6442C882FAC00044EBB /* Common */,
+				0DBCA6392C88272C00044EBB /* Services */,
+				0DBCA6382C88271900044EBB /* ViewModels */,
+				0DBCA6372C88270700044EBB /* Models */,
+				0DBCA6362C8826FD00044EBB /* Views */,
 				0DBCA60F2C8826C800044EBB /* Assets.xcassets */,
 				0DBCA6112C8826C800044EBB /* RadioStreamingTimeCalculator.entitlements */,
+				0DBCA6402C8828AA00044EBB /* StreamingSessions.json */,
 				0DBCA6122C8826C800044EBB /* Preview Content */,
 			);
 			path = RadioStreamingTimeCalculator;
@@ -127,6 +148,49 @@
 				0DBCA6292C8826C900044EBB /* RadioStreamingTimeCalculatorUITestsLaunchTests.swift */,
 			);
 			path = RadioStreamingTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		0DBCA6362C8826FD00044EBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA60D2C8826C600044EBB /* ContentView.swift */,
+				0DBCA6492C8836D500044EBB /* StreamingListView.swift */,
+				0DBCA64B2C885E3500044EBB /* TimeLineGraph.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DBCA6372C88270700044EBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA63A2C88275300044EBB /* StreamingSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DBCA6382C88271900044EBB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA63C2C8827BC00044EBB /* StreamingListViewModel.swift */,
+				0DBCA6422C882D7000044EBB /* StreamingSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DBCA6392C88272C00044EBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA6472C88308500044EBB /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0DBCA6442C882FAC00044EBB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCA6452C882FBD00044EBB /* Extensions.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +299,7 @@
 			files = (
 				0DBCA6142C8826C800044EBB /* Preview Assets.xcassets in Resources */,
 				0DBCA6102C8826C800044EBB /* Assets.xcassets in Resources */,
+				0DBCA6412C8828AA00044EBB /* StreamingSessions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBCA6432C882D7000044EBB /* StreamingSessionViewModel.swift in Sources */,
+				0DBCA6462C882FBD00044EBB /* Extensions.swift in Sources */,
+				0DBCA6482C88308500044EBB /* Webservice.swift in Sources */,
+				0DBCA64A2C8836D500044EBB /* StreamingListView.swift in Sources */,
+				0DBCA63B2C88275300044EBB /* StreamingSession.swift in Sources */,
+				0DBCA64C2C885E3500044EBB /* TimeLineGraph.swift in Sources */,
+				0DBCA63D2C8827BC00044EBB /* StreamingListViewModel.swift in Sources */,
 				0DBCA60E2C8826C600044EBB /* ContentView.swift in Sources */,
 				0DBCA60C2C8826C600044EBB /* RadioStreamingTimeCalculatorApp.swift in Sources */,
 			);
@@ -440,10 +512,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,10 +549,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.RadioStreamingTimeCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

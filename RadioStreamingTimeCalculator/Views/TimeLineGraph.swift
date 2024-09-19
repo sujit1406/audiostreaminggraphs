@@ -1,5 +1,5 @@
 //
-//  BarChartView.swift
+//  TimeLineGraph.swift
 //  RadioStreamingTimeCalculator
 //
 //  Created by Sujith Antony on 04/09/24.
@@ -37,8 +37,8 @@ struct TimelineGraph: View {
                                 .position(x: xPosition, y: geometry.size.height - 10)
                         }
                         
-                        ForEach(0..<9) { index in
-                            let xPosition = geometry.size.width / 8 * CGFloat(index)
+                        ForEach(0..<25) { index in
+                            let xPosition = geometry.size.width / 24 * CGFloat(index)
                             Rectangle()
                                 .frame(width: 1, height: 10)
                                 .position(x: xPosition, y: geometry.size.height - 25)
@@ -51,19 +51,20 @@ struct TimelineGraph: View {
                             
                             let xScale = graphWidth / 24
                             let sessionStartX = session.startTime * xScale
-                            let sessionWidth = (session.endTime - session.startTime) * xScale
-
+                            let sessionHrs = session.endTime - session.startTime
+                            let sessionWidth = sessionHrs * xScale
                             let laneHeight = (geometry.size.height - 20) / CGFloat(sessions.count)
                             let yPosition = CGFloat(index) * laneHeight
+                            
                             
                             Rectangle()
                                 .fill(Color.blue.opacity(0.5))
                                 .frame(width: sessionWidth, height: laneHeight - 10)
                                 .position(x: sessionStartX + sessionWidth / 2, y: yPosition + laneHeight / 2)
                             
-                            Text(session.label)
-                                .foregroundColor(.white)
-                                .position(x: sessionStartX + sessionWidth / 2, y: yPosition + laneHeight / 2)
+                            Text("\(session.label) (\(String(format: "%.1f", sessionHrs)) hrs)")
+                                .foregroundColor(.black)
+                                .position(x: sessionStartX + sessionWidth + 80, y: yPosition + laneHeight / 2)
                         }
                     }.padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
